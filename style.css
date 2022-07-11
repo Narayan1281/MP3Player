@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
 body{
-    background-color: beige;
+    background-color: rgb(240, 19, 19);
 }
 
 *{
@@ -10,7 +10,8 @@ body{
 }
 
 nav{
-    font-family:'Open Sans', sans-serif;
+    font-family: 'Varela Round', sans-serif;
+    font-size: 1.4rem;
 }
 
 nav ul{
@@ -35,7 +36,7 @@ nav ul li{
     display: flex;
     align-items: center;
     font-weight: bolder;
-    font-size: 1.1 rem;
+    font-size: 1.5rem;
 
 }
 .container{
@@ -46,6 +47,7 @@ nav ul li{
     background-size: 90% 100%;
     color: white;
     font-family: 'Varela Round', sans-serif;
+    font-size: medium;
     display: flex;
     margin: 23px auto;
     width: 75%;
@@ -70,17 +72,18 @@ nav ul li{
 
 .songItem img{
     width: 40px;
+    height: 40px;
     margin: 0 20px;
-    border-radius: 34px;
+    border-radius: 20px;
     
 }
 
-.timestamp{
+.songDetails{
     margin: 0 25px;
     display: flex;
-    /* align-items: center; */
+    align-items: center;
 }
-.timestamp img{
+.songDetails img{
     cursor: pointer;
     filter: invert(50%);
 }
@@ -127,5 +130,5 @@ nav ul li{
 
 .songInfo img{
     opacity: 0;
-    transition: opacity 1s ease-in;
+    transition: opacity 0.5s ease-in;
 }
